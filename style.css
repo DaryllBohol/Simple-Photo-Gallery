@@ -15,15 +15,18 @@ img {
 
 #main_box{
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #main_box2{
     margin-top: 10px;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .box1{
-    margin-left: 250px;
     text-align: center;
     height: 250px;
     width: 300px;
@@ -39,7 +42,6 @@ img {
 }
 
 .box2{
-    margin-left: 100px;
     text-align: center;
     height: 250px;
     width: 300px;
@@ -55,7 +57,6 @@ img {
     transform: translateY(-15px)
 }
 .box3{
-    margin-left: 100px;
     text-align: center;
     height: 250px;
     width: 300px;
